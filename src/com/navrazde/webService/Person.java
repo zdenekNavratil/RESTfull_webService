@@ -10,14 +10,14 @@ public class Person {
 	private String firstName;
 	private String lastName;
 	private int age;
-	private int SALARY;
+	private int salary;
 
 	public int getSalary() {
-		return SALARY;
+		return salary;
 	}
 
 	public void setSalary(int salary) {
-		this.SALARY = salary;
+		this.salary = salary;
 	}
 
 	public void Person() {
@@ -28,7 +28,7 @@ public class Person {
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.age = age;
-		this.SALARY = salary;
+		this.salary = salary;
 	}
 
 	public String getFirstName() {
